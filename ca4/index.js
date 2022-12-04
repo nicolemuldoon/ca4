@@ -1,3 +1,5 @@
+const path = require('path')
+const http = require('http');
 const express = require("express");
 const socket = require("socket.io");
 
@@ -10,7 +12,7 @@ const server = app.listen(PORT, function () {
 });
 
 // Static files
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Socket setup
 const io = socket(server);
@@ -38,3 +40,5 @@ io.on("connection", function (socket) {
   });
 
 });
+
+
