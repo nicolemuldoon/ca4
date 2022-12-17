@@ -1,7 +1,7 @@
 {
   "name": "ca4",
   "version": "1.0.0",
-  "description": "",
+  "description": "Live chat",
   "main": "index.js",
   "scripts": {
     "start": "node index",

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>MAOLDUIN | Live Chat</title>
+
+        <link rel="icon" type="image/png" href="./img/favicon.png" />
+
+        <!-- Stylesheets for Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!-- CSS Stylesheets -->
+
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style2.css">
+    </head>
+
+<body>
+
+    <div class="chat-container">
+    <main>
+        <header class="d-flex align-items-center ms-auto">
+            <h1>Live Chat</h1>
+            <div class="return ms-auto">
+                <button>Return Home</button>
+            </div>
+        </header>
+
+        <section class="chatbox">
+            <div class="messages"></div>
+            <div class="sidebar">
+                <h2>Active Users</h2>
+                <ul class="active">
+                    <li>Nicole</li>
+                    <li>Unicorn</li>
+                    <li>Broxi</li>
+                </ul>
+            </div>
+        </section>
+
+        <article>
+        <form id="chatBox">
+            <input 
+                id="msg"
+                type="text"
+                placeholder="Type something...">
+            <button type="submit">SEND</button>
+        </form>
+        </article>
+    </main>
+    </div>
+
+<!-- Body Scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js" integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
+</body>
+</html>
