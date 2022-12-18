@@ -30,14 +30,14 @@
         <header class="d-flex align-items-center">
             <h1>Join the Chat</h1>
             <div class="return ms-auto">
-                <button>Return Home</button>
+                <input class="button" type="button" value="Return Home" onclick="history.back()">
             </div>
         </header>
 
         <article>
-        <form action="chat2.html">
+        <form action="chat.html">
             <div class="form-join">
-                <label for="username">Username: </label>
+                <label for="username">Username:</label>
             <input 
                 id="username"
                 name="username"
@@ -46,8 +46,15 @@
                 required
             />
             </div>
+            <div class="form-join">
+                <label for="room">Room ID:</label>
+                <select name="room" id="room">
+                <option value="General">General</option>
+                <option value="Assistance">Assistance</option>
+            </select>
+            </div>
             <div class ="joinbutton">
-                <button type="submit">Join the discussion..</button>
+                <button class="button" type="submit">Join the discussion..</button>
             </div>
         </form>
         </article>

@@ -10,7 +10,7 @@ header {
     padding:10px;
 }
 
-button {
+.button {
     background-color:#e3ebf1;
     padding:5px;
     border-radius:5px;
@@ -48,7 +48,25 @@ h1 {
 }
 
 .chatbox h2 {
+    margin-bottom:10px;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:bold;
+    text-shadow:2px 2px #77b5e5;
+}
+
+.chatbox h3 {
     font-size:16px;
+    font-weight:bold;
+    text-shadow:2px 2px #77b5e5;
+    text-transform:uppercase;
+}
+
+.chatbox ul {
+    list-style: none;
+    padding-left: 0;
+    font-size:14px;
+    letter-spacing:1px;
     font-weight:bold;
     text-shadow:2px 2px #77b5e5;
 }
@@ -60,10 +78,11 @@ h1 {
     overflow-y:scroll;
 }
 
+
 .messages {
     background-color:#fff;
     padding:25px;
-    max-height:500px;
+    max-height:400px;
     overflow-y:scroll;
 }
 
@@ -123,7 +142,7 @@ h1 {
 
 .form-join {
     background:#fff;
-    padding:20px;
+    padding:12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +168,14 @@ h1 {
 }
 
 .join-container input {
-    padding:5px;
+    padding:3px;
+    border-radius:5px;
+    border:solid 1px #b5d2e8;
+    font-size:14px;
+}
+
+.join-container select {
+    padding:3px;
     border-radius:5px;
     border:solid 1px #b5d2e8;
     font-size:14px;
