@@ -37,7 +37,7 @@ h1 {
     margin:0 auto;
     margin-top:10%;
     box-shadow: 0 8px 8px -4px rgba(153, 153, 153, 0.425);
-    background-color:none;
+    background:none;
 }
 
 /* Message Area */
@@ -101,7 +101,7 @@ h1 {
 }
 
 .messages .msg .reply {
-    font-color:#333;
+    color:#333;
     font-size:12px;
 }
 
@@ -137,7 +137,7 @@ h1 {
     position:relative;
     font-family: 'Roboto', sans-serif;
     box-shadow: 0 8px 8px -4px rgba(153, 153, 153, 0.425);
-    background-color:none;
+    background:none;
 }
 
 .form-join {
@@ -189,7 +189,7 @@ h1 {
     background-color:#eee;
 }
 
-::-webkit-scrollbar-thumb:vertical {
+::-webkit-scrollbar-thumb {
     border-radius:15px;
     -moz-border-radius:15px;
     background-color:#fff;

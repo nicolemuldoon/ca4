@@ -1,0 +1,29 @@
+commit 365cf23cdf3ed0e9a9d78cf4aa4530555dd67f2e (HEAD -> main, origin/main)
+Author: Nicole Muldoon <n.muldoon.21@abdn.ac.uk>
+Date:   Sun Dec 18 00:42:08 2022 +0000
+
+    Added sidebar functionality to chat and fixed errors
+
+commit 1b1a67e0cd7f3ef9f77bf95e788d0dab19a631f7
+Author: Nicole Muldoon <n.muldoon.21@abdn.ac.uk>
+Date:   Sat Dec 17 00:36:44 2022 +0000
+
+    Revamped entire website, added about.html and done majority of code for JS
+
+commit 9e7599b3dcffd690b1ef4f18364cd8926a4007d8
+Author: Nicole Muldoon <n.muldoon.21@abdn.ac.uk>
+Date:   Sun Dec 4 22:44:37 2022 +0000
+
+    Fixed server so it would register bootstrap on main page
+
+commit 2725022d9567b6289098e9b7c992e0e2d22540bc
+Author: Nicole Muldoon <n.muldoon.21@abdn.ac.uk>
+Date:   Sun Dec 4 16:52:42 2022 +0000
+
+    Added basic bootstrap styling to index.html
+
+commit 2ce07723df84a6a457d04cab96bfb9b11dd9a3c4
+Author: Nicole Muldoon <n.muldoon.21@abdn.ac.uk>
+Date:   Sun Dec 4 13:38:12 2022 +0000
+
+    first commit

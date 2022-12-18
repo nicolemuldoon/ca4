@@ -9,7 +9,7 @@
 
         <title>MAOLDUIN</title>
 
-        <link rel="icon" type="image/png" href="./img/favicon.png" />
+        <link rel="icon" type="image/png" href="./img/favicon.png">
         <!-- Stylesheets for Fonts -->
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,8 +29,8 @@
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="title">Nicole Muldoon</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-5">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="./join.html">Chat</a></li>
                 </ul>
             </div>
@@ -55,43 +55,59 @@
 
     <!-- Main Body -->
     <div class="container body">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="col-md-12"><h3>Introduction</h3>
-                Lorem ipsum bla</div>
+        <div class="row gy-4">
+            <div class="col-md-8">
+                <div class="col-md-12 col"><h3>Work Experience</h3>
+                <blockquote>It is important to note that due to ill health, I do not have much
+                experience outside of the below experiences. This is something I hope to change going
+                forward.</blockquote>
+
+                <h2>Blair Drummond Safari Park (2017-18)</h2>
+                <p>Duties included dog walking, feeding a range of small animals including rabbits
+                and turtles, cleaning kennels and assisting in the training of the dogs at the centre
+                in order to prep them for rehoming.</p>
+
+                <h2>Blair Drummond Safari Park (2019)</h2>
+                <p>Duties included providing food for a wide array of species in the Pets Farm, performing
+                health checks and cleaning out enclosures. Species cared for include: meerkats, macaques,
+                red ruffed lemurs, otters, chickens, Kunekune pigs, wallabies, alpacas, sheep, and llamas.</p>
+                </div>
+                <div class="col-md-12 col"><h3>Personal Life</h3>
+                <p>Outside of university, I spend a large proportion of my time working on enrichment projects for my pets
+                    (as previewed on the home page). Other than this, I am an avid reader and also enjoy gaming with friends.
+                    I built a computer for this hobby, which allowed me to learn vital skills about computing technologies,
+                    and this is what spiked my interest in Computing Science electives as a Zoology student. 
+                </p>
+                </div>
+                <div class="col-md-12 col"><h3>Site Development</h3>
+                <p>This site was developed in Codio using numerous developmental tools including: Node.js, socket.io and Nodemon. Bootstrap
+                    elements were added and customised with CSS to provide responsiveness to the  across different media platforms. 
+                    The design was extensively thought about before CSS was implented, to create a smooth, minimalistic and muted feel. 
+                    Demo code was provided and external resources were used (referenced) to understand and implement different JavaScript
+                    commands for functionality of the chat page. 
+                </p>
+                </div>
             </div>
-            <div class="col-md-6">
-                <div class="col-md-12"><h3>Services & Pricing</h3>
-                Lorem ipsum bla</div>
+
+        <!-- Card Info  -->
+            <div class="col-md-4">
+                <div class="card col-md-12">
+                    <img class="card-img-top" src="./img/card.jpg" alt="Profile Photo">
+                            <div class="card-body">
+                            <h3>Facts About Me</h3>
+                            <h2>Nicole A. Muldoon</h2>
+                            <ul class="cardlist">
+                                <li data-emoji="🍰">Born in 1996</li>
+                                <li data-emoji="🌎">Lives in Arbroath</li>
+                                <li data-emoji="🎤">Fluent in English & Scots</li>
+                                <li data-emoji="📚">Learning Gàidhlig</li>
+                            </ul>
+                            <a href="./join.html" class="btn">Chat now</a>
+                </div>
+            </div>
             </div>
         </div>
     </div>
-    <section class="enrichment photo-gallery py-4 py-xl-5">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h1 class>Enrichment Services</h1>
-                    <p class="w-lg-50">Looking for an enrichment project? Here are some of our recent designs displayed below:</p>
-                </div>
-            </div>
-            <div class="enrichment row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
-                <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle mb-3 fit-cover" width="250" height="250" src="./img/castle.jpg" alt="Castle Project"/>
-                    <h5 class="fw-bold text-primary card-title mb-0"><strong>Custom Castle</strong></h5>
-                    <p class="text-muted card-text mb-2">£30-80</p>
-                </div>
-                <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle mb-3 fit-cover" width="250" height="250" src="./img/run.jpg" alt="Castle Project"/>
-                    <h5 class="fw-bold text-primary card-title mb-0"><strong>Foldable Run</strong></h5>
-                    <p class="text-muted card-text mb-2">£90+</p>
-                </div>
-                <div class="card-body text-center d-flex flex-column align-items-center p-0"><img class="rounded-circle mb-3 fit-cover" width="250" height="250" src="./img/pen.jpg" alt="Castle Project"/>
-                    <h5 class="fw-bold text-primary card-title mb-0"><strong>Housing</strong></h5>
-                    <p class="text-muted card-text mb-2">£100+</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
 
     <!-- Footer -->
     <footer class="bg-light text-center">

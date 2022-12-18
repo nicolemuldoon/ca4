@@ -9,7 +9,7 @@
 
         <title>MAOLDUIN | Join Chat</title>
 
-        <link rel="icon" type="image/png" href="./img/favicon.png" />
+        <link rel="icon" type="image/png" href="./img/favicon.png">
 
         <!-- Stylesheets for Fonts -->
 
@@ -24,17 +24,19 @@
     </head>
 
 <body>
-
+    <!-- Join Container -->
     <div class="join-container">
     <main>
         <header class="d-flex align-items-center">
             <h1>Join the Chat</h1>
             <div class="return ms-auto">
-                <input class="button" type="button" value="Return Home" onclick="history.back()">
+                <form action="./index.html" method="get">
+                <button class="button">Return Home</button>
+                </form>
             </div>
         </header>
 
-        <article>
+        <section>
         <form action="chat.html">
             <div class="form-join">
                 <label for="username">Username:</label>
@@ -44,7 +46,7 @@
                 type="text"
                 placeholder="Create a username here"
                 required
-            />
+            >
             </div>
             <div class="form-join">
                 <label for="room">Room ID:</label>
@@ -57,14 +59,14 @@
                 <button class="button" type="submit">Join the discussion..</button>
             </div>
         </form>
-        </article>
+        </section>
     </main>
     </div>
 
 <!-- Body Scripts -->
 
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/client.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/client.js"></script>
 </body>
 
 </html>

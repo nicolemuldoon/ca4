@@ -9,7 +9,7 @@
 
         <title>MAOLDUIN | Live Chat</title>
 
-        <link rel="icon" type="image/png" href="./img/favicon.png" />
+        <link rel="icon" type="image/png" href="./img/favicon.png">
 
         <!-- Stylesheets for Fonts -->
 
@@ -24,13 +24,15 @@
     </head>
 
 <body>
-
+    <!-- Chat Container -->
     <div class="chat-container">
     <main>
         <header class="d-flex align-items-center ms-auto">
             <h1>Live Chat</h1>
             <div class="return ms-auto">
-                <input class="button" type="button" value="Leave Chat" onclick="history.back()">
+                <form action="./join.html" method="get">
+                <button class="button">Leave Chat</button>
+                </form>
             </div>
         </header>
 
@@ -41,6 +43,7 @@
                 <h2 id="room-name"></h2>
                 <h3>Active Users:</h3>
                 <ul id="users"></ul>
+            </div>
         </section>
 
         <article>
@@ -57,8 +60,8 @@
 
 <!-- Body Scripts -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js" integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/client.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.0/qs.min.js" integrity="sha512-/l6vieC+YxaZywUhmqs++8uF9DeMvJE61ua5g+UK0TuHZ4TkTgB1Gm1n0NiA86uEOM9JJ6JUwyR0hboKO0fCng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/client.js"></script>
 </body>
 </html>
